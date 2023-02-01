@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is the output of this code: print(2 + 2)",
+        "answer": "4",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "question": "What is the output of this code: print('Hello, world!')",
+        "answer": "Hello, world!",
+        "options": [
+            "Hello, world!",
+            "Goodbye, world!",
+            "Hi, world!",
+            "Bye, world!"
+        ]
+    }
+]
