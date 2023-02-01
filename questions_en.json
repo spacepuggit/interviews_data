@@ -1,0 +1,203 @@
+[
+    {
+      "question": "In which of these situations are interfaces better than abstract classes?",
+      "answer": "When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class.",
+      "options": [
+        "When you need to define an object type's characteristics, use an interface. When you need to define an object type's capabilities, use an abstract class.",
+        "Interfaces are a legacy of older versions of C#, and are interchangeable with the newer abstract class feature.",
+        "When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class.",
+        "You should use both an interface and an abstract class when defining any complex object."
+      ]
+    },
+    {
+      "question": "Which statement is true of delegates?",
+      "answer": "They can be chained together.",
+      "options": [
+        "Delegates are not supported in the current version of C#",
+        "They cannot be used as callbacks.",
+        "Only variables can be passed to delegates as parameters.",
+        "They can be chained together."
+      ]
+    },
+    {
+      "question": "Which choice best defines C#'s asynchronous programming model?",
+      "answer": "task-based",
+      "options": [
+        "task-based",
+        "callback-based",
+        "inherited callback",
+        "reactive"
+      ]
+    },
+    {
+      "question": "What is the difference between the ref and out keywords?",
+      "answer": "Variables passed to out can be passed to a function without being initialized, while ref specifies that the value is a reference value that can be changed inside the calling method.",
+      "options": [
+        "Variables passed to out specify that the parameter is an output parameter, while ref specifies that a variable may be passed to a function without being initialized.",
+        "Variables passed to ref can be passed to a function without being initialized, while out specifies that the value is a reference value that can be changed inside the calling method.",
+        "Variables passed to out can be passed to a function without being initialized, while ref specifies that the value is a reference value that can be changed inside the calling method.",
+        "Variables passed to ref specify that the parameter is an output parameter, while out specifies that a variable may be passed to a function without being initialized."
+      ]
+    },
+    {
+      "question": "How could you retrieve information about a class, as well as create an instance at runtime?",
+      "answer": "reflection",
+      "options": [
+        "reflection",
+        "serialization",
+        "abstraction",
+        "dependency injection"
+      ]
+    },
+    {
+      "question": "What is the difference between an anonymous type and a regular data type?",
+      "answer": "Anonymous types don't have type names",
+      "options": [
+        "Anonymous types don't have type names",
+        "Anonymous types can only be static",
+        "Anonymous types can be used only in struts",
+        "Anonymous types don't work with LINQ."
+      ]
+    },
+    {
+      "question": "When would you use a Dictionary rather that an Array type in your application?",
+      "answer": "when you need to store key-value pairs rather than single values",
+      "options": [
+        "when you need a jagged collection structure",
+        "when you need to store values of the same type",
+        "when you need to store key-value pairs rather than single values",
+        "when you need an ordered, searchable list"
+      ]
+    },
+    {
+      "question": "What is the difference between a.Equals(b) and a == b?",
+      "answer": "The .Equals method compares contents while == compares reference identity.",
+      "options": [
+        "The .Equals method compares reference identities while the == compares contents.",
+        "The .Equals method compares primitive values while == compares all values.",
+        "The .Equals method compares contents while == compares reference identity.",
+        "The .Equals method compares reference type while == compares primitive value types"
+      ]
+    },
+    {
+      "question": "Which choice best describes a deadlock situation?",
+      "answer": "when simultaneous instructions are waiting on each other to finish before executing",
+      "options": [
+        "when simultaneous instructions are waiting on each other to finish before executing",
+        "when you try to instantiate two objects at the same time in the same class or struct",
+        "when you are trying to execute an action after a user event is registered",
+        "when you try to execute a series of events simultaneously on multiple threads"
+      ]
+    },
+    {
+      "question": "How does the async keyword work?",
+      "answer": "It allows the await keyword to be used in a method",
+      "options": [
+        "It allows access to asynchronous methods in the C# API",
+        "It allows thread pooling and synchronous processes in static classes.",
+        "It allows the await keyword to be used in a method",
+        "It allows access to synchronous methods in the C# API"
+      ]
+    },
+    {
+      "question": "What is an object in C#?",
+      "answer": "an instance of a class or struct that includes fields, properties, and/or methods",
+      "options": [
+        "a class or struct, including its variables and functions",
+        "a primitive data type that can be created only at compile time",
+        "a value type that can be used only with an abstract class",
+        "an instance of a class or struct that includes fields, properties, and/or methods"
+      ]
+    },
+    {
+      "question": "What will be returned when this method is executed? public void userInput(string charParameters) { }",
+      "answer": "nothing",
+      "options": [
+        "nothing",
+        "a Boolean",
+        "a string variable",
+        "an integer"
+      ]
+    },
+    {
+      "question": "Lambda expressions are often used in tandem with which of the following?",
+      "answer": "LINQ",
+      "options": [
+        "Namespaces",
+        "LINQ",
+        "Type Aliasing",
+        "Assemblies"
+      ]
+    },
+    {
+      "question": "How do you make a method in an abstract class overridable?",
+      "answer": "Make it virtual",
+      "options": [
+        "Make it public",
+        "Make it static",
+        "Make it private",
+        "Make it virtual"
+      ]
+    },
+    {
+      "question": "How would you write code for an integer property called Age with a getter and setter?",
+      "answer": "public int Age { get; set; }",
+      "options": [
+        "public int Age (get, set );",
+        "public int Age: get set;",
+        "public int Age { get - set }",
+        "public int Age { get; set; }"
+      ]
+    },
+    {
+      "question": "What is an abstract class?",
+      "answer": "a class that can be used only as base class",
+      "options": [
+        "a class that can be used only as base class",
+        "a class that is denoted by the virtual keyword",
+        "something denoted by the abstract keyword and used system wide; if you want any program to create an object of a class you use the abstract class",
+        "a class that is denoted by the class keyword (can be seen and used by any other class in the system--thus it is by default public)"
+      ]
+    },
+    {
+      "question": "When using a thread pool what happens to a given thread after it finishes its task?",
+      "answer": "The thread returns to the pool for reuse.",
+      "options": [
+        "The thread returns to the pool for reuse.",
+        "The thread goes inactive in the background and waits for garbage collection.",
+        "The thread runs in loop until the next assignment.",
+        "The thread is destroyed and memory is freed up."
+      ]
+    },
+    {
+      "question": "Which choice represents a class that inherits behavior from a base class?",
+      "answer": "a derived class",
+      "options": [
+        "a second base class",
+        "a revised class",
+        "a derived class",
+        "a parent class"
+      ]
+    },
+    {
+      "question": " What is the main purpose of LINQ?",
+      "answer": "to query and transform data",
+      "options": [
+        "to query and transform data",
+        "to delete duplicate data",
+        "to bind namespaces and assemblies",
+        "to connect assemblies"
+      ]
+    },
+    {
+      "question": "What is the correct syntax for a new generic list of strings named contacts?",
+      "answer": "var contacts = new List();",
+      "options": [
+        "public List contacts = new List();",
+        "public List(string names) contacts = new List(string names)();",
+        "var contacts = new List();",
+        "var contacts = new List(string);"
+      ]
+    }
+    
+  ]
