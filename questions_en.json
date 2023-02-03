@@ -19,7 +19,7 @@
   },
   "questions": [
     {
-      "question": "In which of these situations are interfaces better than abstract classes?",
+      "question": "❔In which of these situations are interfaces better than abstract classes?",
       "answer": "When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class.",
       "options": [
         "When you need to define an object type's characteristics, use an interface. When you need to define an object type's capabilities, use an abstract class.",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "question": "Which statement is true of delegates?",
+      "question": "❔Which statement is true of delegates?",
       "answer": "They can be chained together.",
       "options": [
         "Delegates are not supported in the current version of C#",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "question": "Which choice best defines C#'s asynchronous programming model?",
+      "question": "❔Which choice best defines C#'s asynchronous programming model?",
       "answer": "task-based",
       "options": [
         "task-based",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "question": "What is the difference between the ref and out keywords?",
+      "question": "❔What is the difference between the ref and out keywords?",
       "answer": "Variables passed to out can be passed to a function without being initialized, while ref specifies that the value is a reference value that can be changed inside the calling method.",
       "options": [
         "Variables passed to out specify that the parameter is an output parameter, while ref specifies that a variable may be passed to a function without being initialized.",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "question": "How could you retrieve information about a class, as well as create an instance at runtime?",
+      "question": "❔How could you retrieve information about a class, as well as create an instance at runtime?",
       "answer": "reflection",
       "options": [
         "reflection",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "question": "What is the difference between an anonymous type and a regular data type?",
+      "question": "❔What is the difference between an anonymous type and a regular data type?",
       "answer": "Anonymous types don't have type names",
       "options": [
         "Anonymous types don't have type names",
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "question": "When would you use a Dictionary rather that an Array type in your application?",
+      "question": "❔When would you use a Dictionary rather that an Array type in your application?",
       "answer": "when you need to store key-value pairs rather than single values",
       "options": [
         "when you need a jagged collection structure",
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "question": "What is the difference between a.Equals(b) and a == b?",
+      "question": "❔What is the difference between a.Equals(b) and a == b?",
       "answer": "The .Equals method compares contents while == compares reference identity.",
       "options": [
         "The .Equals method compares reference identities while the == compares contents.",
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "question": "Which choice best describes a deadlock situation?",
+      "question": "❔Which choice best describes a deadlock situation?",
       "answer": "when simultaneous instructions are waiting on each other to finish before executing",
       "options": [
         "when simultaneous instructions are waiting on each other to finish before executing",
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "question": "How does the async keyword work?",
+      "question": "❔How does the async keyword work?",
       "answer": "It allows the await keyword to be used in a method",
       "options": [
         "It allows access to asynchronous methods in the C# API",
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "question": "What is an object in C#?",
+      "question": "❔What is an object in C#?",
       "answer": "an instance of a class or struct that includes fields, properties, and/or methods",
       "options": [
         "a class or struct, including its variables and functions",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "question": "What will be returned when this method is executed? public void userInput(string charParameters) { }",
+      "question": "❔What will be returned when this method is executed? public void userInput(string charParameters) { }",
       "answer": "nothing",
       "options": [
         "nothing",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "question": "Lambda expressions are often used in tandem with which of the following?",
+      "question": "❔Lambda expressions are often used in tandem with which of the following?",
       "answer": "LINQ",
       "options": [
         "Namespaces",
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "question": "How do you make a method in an abstract class overridable?",
+      "question": "❔How do you make a method in an abstract class overridable?",
       "answer": "Make it virtual",
       "options": [
         "Make it public",
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "question": "What is an abstract class?",
+      "question": "❔What is an abstract class?",
       "answer": "a class that can be used only as base class",
       "options": [
         "a class that can be used only as base class",
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "question": "When using a thread pool what happens to a given thread after it finishes its task?",
+      "question": "❔When using a thread pool what happens to a given thread after it finishes its task?",
       "answer": "The thread returns to the pool for reuse.",
       "options": [
         "The thread returns to the pool for reuse.",
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "question": "Which choice represents a class that inherits behavior from a base class?",
+      "question": "❔Which choice represents a class that inherits behavior from a base class?",
       "answer": "a derived class",
       "options": [
         "a second base class",
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "question": " What is the main purpose of LINQ?",
+      "question": "❔What is the main purpose of LINQ?",
       "answer": "to query and transform data",
       "options": [
         "to query and transform data",
@@ -209,7 +209,7 @@
       ]
     },
     {
-      "question": "What is the correct syntax for a new generic list of strings named contacts?",
+      "question": "❔What is the correct syntax for a new generic list of strings named contacts?",
       "answer": "var contacts = new List();",
       "options": [
         "public List contacts = new List();",
