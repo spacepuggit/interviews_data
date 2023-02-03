@@ -3,6 +3,8 @@
     "start_test": "🚀 Start test",
     "finish_test": "🏁 Finish test",
     "menu": "🔙 Main menu",
+    "help_menu": "🧐 Help",
+    "сhoose_menu": "🖐Choose action:",
     "help":"This is a quiz bot 🤖. To start the quiz, type 'start_test'. The bot will present you with 20 questions, after which it will show you the results 📊.",
     "correct_answer": "✅ Correct!",
     "incorrect_answer": "❌ Incorrect. The correct answer is",
