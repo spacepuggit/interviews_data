@@ -1,4 +1,23 @@
-[
+{
+  "localization": {
+    "start_test": "🚀 Start test",
+    "finish_test": "🏁 Finish test",
+    "menu": "🔙 Main menu",
+    "help":"This is a quiz bot 🤖. To start the quiz, type 'start_test'. The bot will present you with 20 questions, after which it will show you the results 📊.",
+    "correct_answer": "✅ Correct!",
+    "incorrect_answer": "❌ Incorrect. The correct answer is",
+    "results": "You have answered",
+    "out_of": "out of",
+    "questions_correctly": "questions correctly.",
+    "choose_language": "💬 Choose language",
+    "perfect_score": "🎉 Congrats! You have answered all {total_questions} questions correctly!",
+    "good_score": "🎊 Good job! You have answered {correct_answers} out of {total_questions} questions correctly.",
+    "bad_score": "💔 Sorry! You have only answered {correct_answers} out of {total_questions} questions correctly.",
+    "switch_language": "Switch language 🔄",
+    "language_set":"Language set to 🔜",
+    "invalid_language":"❌ Invalid language. Please try again."
+  },
+  "questions": [
     {
       "question": "In which of these situations are interfaces better than abstract classes?",
       "answer": "When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class.",
@@ -199,5 +218,5 @@
         "var contacts = new List(string);"
       ]
     }
-    
   ]
+}
